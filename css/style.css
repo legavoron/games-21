@@ -320,6 +320,12 @@ justify-content: center;
   }
 }
 @media (max-width: 453px) {
+  .score_container_info_players{
+    margin-top: 0;
+  }
+  .h2Score{
+    font-size: 10px;
+  }
   .btn{
     font-size: 12px;
   }
@@ -331,6 +337,7 @@ justify-content: center;
   }
   .message_on{
     position: absolute;
+    left: 0;
     top: 30%;
     width: 100%;
     height: 20%;
@@ -338,5 +345,25 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .player_container{
+    margin: 0;
+  }
+  .window_game_blocks{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  #btn_end_1{
+    height: 7%;
+  
+  }
+  .wrapper{
+    padding-top: 5px;
+  }
+  #comp_container{
+    padding-top: 20px;
+  }
+  .sum_score{
+    border-radius: 5px;
   }
 }
