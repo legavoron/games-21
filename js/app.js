@@ -127,7 +127,7 @@ let finalScorePlayer1 = document.querySelector('#sc_p1'),
         } else if (a > 21 && b > 21) {
             showMessage('Draw');
         } else if (a <= 21 && b > 21) {
-            showMessage('Player Win');
+            showMessage('You Win');
             finalSumPlayer1++;
             finalScorePlayer1.innerHTML = finalSumPlayer1;
         } else if (a > 21 && b <=21) {
@@ -139,7 +139,7 @@ let finalScorePlayer1 = document.querySelector('#sc_p1'),
             finalSumPlayer2++;
             finalScorePlayer2.innerHTML = finalSumPlayer2;
         } else if (a <= 21 && b < 21 && a > b) {
-            showMessage('Player Win');
+            showMessage('You Win');
             finalSumPlayer1++;
             finalScorePlayer1.innerHTML = finalSumPlayer1;
         }
@@ -150,7 +150,7 @@ let finalScorePlayer1 = document.querySelector('#sc_p1'),
         whoWinnerMessage.innerHTML = text;
         console.log( whoWinnerMessage.innerHTML);
         setTimeout(show, 500);
-        setTimeout(hide, 10000);
+        setTimeout(hide, 2000);
 
        function show () {
             winnerBlock.classList.remove('message_off');

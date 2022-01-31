@@ -42,6 +42,7 @@ h2{
 .players_container{
   width: 70%;
   height: 100%;
+  position: relative;
 }
 .score{
   text-align: center;
@@ -181,10 +182,23 @@ justify-content: center;
 #image_2player{
   display: none;
 }
+#who_winner{
+  font-size: 50px;
+  color: rgb(214, 44, 44);
+}
 .message_on{
   position: absolute;
-
-
+  top: 25%;
+  right: 25%;
+  width: 50%;
+  height: 50%;
+  background-color: rgb(200, 232, 236);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.message_off{
+  display: none;
 }
 
 @media (max-width: 940px) {
@@ -241,6 +255,14 @@ justify-content: center;
   }
   .reset_container{
     margin: 0 10px;
+  }
+  .message_on{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(200, 232, 236);
+    display: block;
   }
 }
 
@@ -306,5 +328,15 @@ justify-content: center;
   }
   #reset_btn{
     width: 84px;
+  }
+  .message_on{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(200, 232, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
