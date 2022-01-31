@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg2" sodipodi:docbase="/home/nicu/Desktop/cards" sodipodi:docname="back4.svg" sodipodi:version="0.32" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 91 136"
+	 style="enable-background:new 0 0 91 136;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill-opacity:0.498;}
+	.st3{fill:#C7891F;}
+	.st4{fill:url(#rect1306_1_);}
+	.st5{fill:url(#path1385_1_);}
+	.st6{fill:url(#path9846_1_);}
+	.st7{fill:url(#path2154_1_);}
+</style>
+<pattern  x="-24.5" y="163" width="14.1" height="13.8" patternUnits="userSpaceOnUse" id="pattern10642" viewBox="0 -13.8 14.1 13.8" style="overflow:visible;">
+	<g>
+		<rect y="-13.8" class="st0" width="14.1" height="13.8"/>
+		<g id="g10644_1_" transform="translate(31.25 -2.9289)">
+			
+				<rect id="rect10646_1_" x="-30.2" y="-3.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -7.6884 -19.7747)" class="st1" width="5" height="5"/>
+			
+				<rect id="rect10648_1_" x="-30.2" y="-9.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.9654 -21.731)" class="st1" width="5" height="5"/>
+			
+				<rect id="rect10650_1_" x="-23.1" y="-3.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.6173 -14.7747)" class="st1" width="5" height="5"/>
+			
+				<rect id="rect10652_1_" x="-23.1" y="-9.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -0.8945 -16.7311)" class="st1" width="5" height="5"/>
+		</g>
+	</g>
+</pattern>
+<sodipodi:namedview  bordercolor="#666666" borderopacity="1.0" id="base" pagecolor="#ffffff"></sodipodi:namedview>
+<g id="g5630">
+	<path id="rect2070" class="st2" d="M13.1,2.9h67.4C86.3,2.9,91,8,91,14.3v109.7c0,6.4-4.7,11.5-10.5,11.5H13.1
+		c-5.8,0-10.5-5.1-10.5-11.5V14.3C2.6,8,7.3,2.9,13.1,2.9z"/>
+	<path id="rect1300" class="st1" d="M10.5,0h67.4c5.8,0,10.5,5.1,10.5,11.5v109.7c0,6.4-4.7,11.5-10.5,11.5H10.5
+		c-5.8,0-10.5-5.1-10.5-11.5V11.5C0,5.1,4.7,0,10.5,0z"/>
+	<path id="path5624" class="st3" d="M11.8,1.4h67.4c5.8,0,10.5,5.1,10.5,11.5v109.7c0,6.4-4.7,11.5-10.5,11.5H11.8
+		c-5.8,0-10.5-5.1-10.5-11.5V12.9C1.3,6.6,6,1.4,11.8,1.4z"/>
+	
+		<linearGradient id="rect1306_1_" gradientUnits="userSpaceOnUse" x1="1.5061" y1="96.5111" x2="74.5376" y2="51.7367" gradientTransform="matrix(1 0 0 -1 0 137)">
+		<stop  offset="0" style="stop-color:#EBF0D0"/>
+		<stop  offset="1" style="stop-color:#FFFFEB"/>
+	</linearGradient>
+	<path id="rect1306" class="st4" d="M11.1,0.7h67.4C84.4,0.7,89,5.8,89,12.2v109.7c0,6.4-4.7,11.5-10.5,11.5H11.1
+		c-5.8,0-10.5-5.1-10.5-11.5V12.2C0.7,5.8,5.3,0.7,11.1,0.7z"/>
+</g>
+<linearGradient id="path1385_1_" gradientUnits="userSpaceOnUse" x1="124.4182" y1="60.0215" x2="54.2667" y2="148.2313" gradientTransform="matrix(0.8542 0 0 -1.1706 -29.6622 192.4214)">
+	<stop  offset="0" style="stop-color:#830007"/>
+	<stop  offset="1" style="stop-color:#FF0000"/>
+</linearGradient>
+<path id="path1385" class="st5" d="M13.9,6.5h61.8c5.3,0,9.6,4.7,9.6,10.5v100.6c0,5.8-4.3,10.5-9.6,10.5H13.9
+	c-5.3,0-9.6-4.7-9.6-10.5V17C4.3,11.1,8.5,6.5,13.9,6.5L13.9,6.5z"/>
+<pattern  id="path9846_1_" xlink:href="#pattern10642" patternTransform="matrix(1 0 0 -1 24.2941 -16145.75)">
+</pattern>
+<path id="path9846" class="st6" d="M13.9,6.5h61.8c5.3,0,9.6,4.7,9.6,10.5v100.6c0,5.8-4.3,10.5-9.6,10.5H13.9
+	c-5.3,0-9.6-4.7-9.6-10.5V17C4.3,11.1,8.5,6.5,13.9,6.5L13.9,6.5z"/>
+<linearGradient id="path2154_1_" gradientUnits="userSpaceOnUse" x1="44.4115" y1="148.6099" x2="129.6626" y2="64.095" gradientTransform="matrix(0.8554 0 0 -1.1691 -29.4322 191.9429)">
+	<stop  offset="0" style="stop-color:#830007"/>
+	<stop  offset="1" style="stop-color:#FF0000"/>
+</linearGradient>
+<path id="path2154" class="st7" d="M13.9,6c-5.5,0-10,4.9-10,11v100.6c0,6.1,4.5,11,10,11h61.8c5.5,0,10-4.9,10-11V17
+	c0-6.1-4.5-11-10-11L13.9,6L13.9,6z M13.9,6.9h61.8c5.1,0,9.2,4.5,9.2,10.1v100.6c0,5.6-4.1,10.1-9.2,10.1H13.9
+	c-5.1,0-9.2-4.5-9.2-10.1V17C4.7,11.4,8.8,6.9,13.9,6.9L13.9,6.9z"/>
+</svg>
