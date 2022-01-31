@@ -16,8 +16,15 @@ h1{
   margin: 0;
   font-size: 80px;
 }
+h2{
+  font-size: 20px;
+  padding: 0 5px;
+}
 .wrapper{
   display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -29,46 +36,66 @@ h1{
 .info_container{
   width: 30%;
   height: 100%;
-  display: flex; 
-  flex-direction: column; 
-  align-items: center;
+  margin: 0 auto;
   border-right: 1px solid rgb(46, 49, 49);
 }
 .players_container{
   width: 70%;
   height: 100%;
-  /* background-color: blue; */
 }
 .score{
   text-align: center;
 }
 .score_container{
-  display: inline-block;
   width: 60%;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 15%;
 }
 .score_container_container{
-  /* background-color: cadetblue; */
   display: flex;
+  background-color: rgb(91, 180, 196);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgb(184, 181, 181);
+}
+.btn{
+  width: 130px;
+  height: 40px;
+  color: rgb(31, 29, 29);
+  border-radius: 5px;
+  padding: 10px 25px;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow:2px 2px 5px rgb(184, 181, 181);
+  outline: none;
+  background: linear-gradient(0deg, rgb(91, 180, 196) 0%, rgb(117, 200, 214) 100%);
+  border: none;
+}
+.btn:hover {
+  background: linear-gradient(0deg, rgb(91, 180, 196) 0%, rgb(132, 209, 223) 100%);
+}
+#btn_end_1{
+  background: linear-gradient(0deg, rgb(245, 235, 218) 0%, rgb(252, 242, 225) 100%);
+}
+#btn_end_1:hover{
+  background: linear-gradient(0deg, rgb(245, 235, 218) 0%, rgb(247, 243, 235) 100%);
 }
 .score1_player{
   width: 50%;
   text-align: center;
   border-right: 1px solid rgb(46, 49, 49);  
-  background-color: rgb(45, 195, 221);
-  border-radius: 10px 0px 0px 10px;
   padding: 5px;
 }
 .score2_player{
   width: 50%;
   text-align: center;
-  background-color: rgb(45, 195, 221);
-  border-radius: 0px 10px 10px 0px;
   padding: 5px;
 }
 .score_container_info_players{
-  /* background-color: rgb(153, 85, 218); */
   display: flex;
   margin-top: 15px;
 }
@@ -81,7 +108,25 @@ h1{
   text-align: center;
 }
 .new_game_container{
-  margin: 40px auto;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+#new_game_btn{
+  width: 50%;
+  margin: 20px auto;
+}
+#reset_btn{
+  width: 50%;
+  margin: 0 auto;
+}
+.btns_container{
+  margin: 0 10px;
+  margin-top: 28.2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 .player_container{
   width: 100%;
@@ -94,7 +139,6 @@ h1{
   width: 100%;
   height: 80%;
   display: flex;
-  /* background-color: aqua; */
   justify-content: center;
   text-align: center;
 }
@@ -102,4 +146,165 @@ h1{
   width: 30%;
   height: 100%;
   margin: 0 20px;
+}
+.cards_container{
+  width: 100%;
+  height: 100%;
+}
+.img{
+  width: 100%;
+  height: 100%;
+}
+.one_card_container{
+  width: 100%;
+  height: 100%;
+}
+.window_game_blocks{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.sum_score{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  width: 50%;
+  align-items: flex-start;
+  background-color: rgb(245, 232, 208);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgb(184, 181, 181);
+}
+#image_1player{
+  display: none;
+}
+#image_2player{
+  display: none;
+}
+.message_on{
+  position: absolute;
+
+
+}
+
+@media (max-width: 940px) {
+  .wrapper{
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .info_container{
+    width: 50%;
+    height: 20%;
+    border-right: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .players_container{
+    width: 100%;
+    height: 80%;
+  }
+  .player_container{
+    margin-top: 30px;
+  }
+  .score_container{
+    margin: 0 10px;
+  }
+  .score{
+    font-size: 30px;
+    margin: 0 auto;
+  }
+  .score_h2{
+    margin: 0 auto;
+  }
+  .score_container_container{
+    margin-top: 5px;
+  }
+  .player_container{
+    margin: 10% auto;
+  }
+  .score_player{
+    font-size: 50px;
+  }
+  .btn{
+    font-size: 16px;
+    height: 45.4px;
+  }
+  #new_game_btn{
+    width: 133px;
+    margin: 0;
+    margin-left: 100px;
+  }
+  #reset_btn{
+    width: 133px;
+    margin-right: 5px;
+  }
+  .reset_container{
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 580px) {
+  #new_game_btn{
+    width: 133px;
+    margin: 0;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 520px) {
+  
+  #new_game_btn{
+    width: 133px;
+    margin: 0;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 490px) {
+  .score_container{
+    margin-left: 10px;
+    width: 50%;
+    padding-left: 5px;
+  }
+  h2{
+    font-size: 14px;
+  }
+  .btns_container{
+    margin-top: 21px;
+  }
+  .window_game{
+    flex-wrap: wrap;
+  }
+  .window_game_blocks{
+    width: 40%;
+    height: 40%;
+    margin: 10px auto;
+  }
+  .player_container{
+    margin-top: 15px;
+  }
+  .cards_container{
+    width: 70%;
+    height: 70%;
+  }
+  .one_card_container{
+    width: 70%;
+    height: 70%;
+  }
+  #score_player1{
+    font-size: 26px;
+  }
+  #score_player2{
+    font-size: 26px;
+  }
+}
+@media (max-width: 453px) {
+  .btn{
+    font-size: 12px;
+  }
+  #new_game_btn{
+  width: 84px;
+  }
+  #reset_btn{
+    width: 84px;
+  }
 }

@@ -2,84 +2,97 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 	<title>Aleh Shchurko</title>
     <link rel="stylesheet" href="css/style.css">
-    
-
 <body>
     <div class="wrapper">
         <div class="info_container">
             <div class="score_container">
                 <div class="score">
-                    <h2>Score</h2>
+                    <h2 class="score_h2">Score</h2>
                 </div>
                 <div class="score_container_container">
                         <div class="score1_player">
-                            <h1>0</h1>
+                            <h1 id="sc_p1" class="score">0</h1>
                         </div>
 
                         <div class="score2_player">
-                            <h1>0</h1>
+                            <h1 id="sc_p2" class="score">0</h1>
                         </div>
                 </div>
                 <div class="score_container_info_players">
                             <div class="score1_player_info">
-                                <h2>Player 1</h2>
+                                <h2>Player</h2>
                             </div>
                             <div class="score2_player_info">
-                                <h2>Player 2</h2>
+                                <h2>Comp</h2>
                             </div>
                 </div>
             </div>
-            <div class="new_game_container">
-                <button class="new_game_btn _btn">New Game</button>
+            <div class="btns_container">
+                <button id="new_game_btn" class = "btn">New Game</button>
             </div>
-            <div class="reset_container">
-                <button class="reset_btn _btn">Reset</button>
+            <div class="btns_container">
+                <button id="reset_btn" class = "btn">Reset</button>
             </div>
         </div>
+        <!-- -----------------------------------------Player1------------------------------------------- -->
+        
         <div class="players_container">
             <div class="player_container" id="player1_container">
                 <div class="window_game">
                     <div class="window_game_blocks">
                         <div class="cards_container">
-
+                            <a href="#"><img src="./img/col.svg"  class="img" id="image_col_1Player"></a>
                         </div>
                     </div>
                     <div class="window_game_blocks">
                         <div class="one_card_container">
-                        
+                            <img src="./img/24.svg"  class="img" id="image_1player">
                         </div>
                     </div>
                     <div class="window_game_blocks">
                         <div class="sum_score">
-    
+                            <h1 id="score_player1" class="score_player">0</h1>
+                        </div>
+                        <div class="score_player_info">
+                            <h2>Total Scores</h2>
+                        </div>
+                        <div class="btn_end_container">
+                            <button class="btn" id="btn_end_1">End</button>
                         </div>
                     </div>
                 </div>
-                
+
+                <!-- -----------------------------------Computer ------------------------------ -->
+
             </div>
             <div class="player_container" id="player2_container">
                 <div class="window_game">
                     <div class="window_game_blocks">
                         <div class="cards_container">
-
+                            <a href="#"><img src="./img/col.svg" alt="carts" class="img" id="image_col_2Player"></a>
                         </div>
                     </div>
                     <div class="window_game_blocks">
                         <div class="one_card_container">
-                        
+                            <img src="./img/34.svg" alt="card" class="img" id="image_2player">
                         </div>
                     </div>
                     <div class="window_game_blocks">
                         <div class="sum_score">
-    
+                            <h1 id="score_player2" class="score_player">0</h1>
                         </div>
+                        <div class="score_player_info">
+                            <h2>Total Scores</h2>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <script src="./js/app.js"></script>
 </body>
 </html>
