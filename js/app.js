@@ -90,6 +90,8 @@ let finalScorePlayer1 = document.querySelector('#sc_p1'),
                 setTimeout(calculation, 700);
             } else if (a < b && b >= 17 && b <=21){
                 showMessage('Computer Win');
+                finalSumPlayer2++;
+                finalScorePlayer2.innerHTML = finalSumPlayer2;
             } else if (a === 17 && b === 17) {
                 setTimeout(calculation, 700);
             } else if (a === 18 && b === 18) {
@@ -109,12 +111,16 @@ let finalScorePlayer1 = document.querySelector('#sc_p1'),
             }
             else if (a <= 21 && b > 21) {
                 showMessage('You Win');
+                finalSumPlayer1++;
+                finalScorePlayer1.innerHTML = finalSumPlayer1;
             }
             else if (a > 21 && b < 17) {
                 setTimeout(calculation, 700);
             }
             else if (a > 21 && b >= 17 && b <= 21) {
                 showMessage('Computer Win');
+                finalSumPlayer2++;
+                finalScorePlayer2.innerHTML = finalSumPlayer2;
             }
         }
     }
